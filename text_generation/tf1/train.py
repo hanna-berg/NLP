@@ -5,7 +5,7 @@ import os
 
 flags = tf.app.flags
 
-flags.DEFINE_string('train_file', 'oliver.txt', 'text file to train LSTM')
+flags.DEFINE_string('train_file', 'CJL_Almqvist_Det_gar_an.txt', 'text file to train LSTM')
 flags.DEFINE_integer('seq_size', 32, 'sequence length')
 flags.DEFINE_integer('batch_size', 16, 'batch size')
 flags.DEFINE_integer('embedding_size', 128, 'Embedding hidden size')
